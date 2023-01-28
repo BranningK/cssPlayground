@@ -21,6 +21,8 @@ body{
 /* How long before the transition takes effect */
     /* transition-delay: 0s; */
 /* Shorthand for all of above properties */
+/* If we wanted all of the elements to be the same, like they are below 
+we just replace transform with all and delete the comma separators*/
     transition: transform 0.3s, background-color 0.3s, color 0.3s;
 }
 .btn:hover{

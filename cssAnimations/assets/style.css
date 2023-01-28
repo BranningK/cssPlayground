@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(23, 26, 26);
+    color: whitesmoke;
+}
+.btn{
+    font-size: 2rem;
+    font-weight: 700;
+    padding: .5em 1em;
+    color: blueviolet;
+    background-color: plum;
+    border: 10px solid blueviolet;
+    border-radius: 5px;
+
+/* Which property the transition should be applied to */
+    /* transition-property: transform ;  */
+/* How long the effect should take to complete */
+    /* transition-duration: 0.3s; */
+/* Defines the acceleration curve for the transition */
+/* ease-in, ease-out, ease-in-out, linear, ease (default) */
+    /* transition-timing-function: ease ; */
+/* How long before the transition takes effect */
+    /* transition-delay: 0s; */
+/* Shorthand for all of above properties */
+    transition: transform 0.3s, background-color 0.3s, color 0.3s;
+}
+.btn:hover{
+    transform: translateY(-10px);
+    background-color: blueviolet;
+    color: whitesmoke;
+}
